@@ -1,11 +1,11 @@
 moderator_color:
   type: string
-  default: ""
+  default: "orange"
   description: 
-    en: "Moderator shield icon color."
+    en: "Moderator shield icon color - use hexadecimal code or html color name."
 
 admin_color:
   type: string
-  default: ""
+  default: "#FFD700"
   description: 
     en: "Admin shield icon color."
