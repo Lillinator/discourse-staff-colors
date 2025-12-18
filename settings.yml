@@ -1,6 +1,6 @@
 moderator_color:
   type: string
-  default: "orange"
+  default: "silver"
   description: 
     en: "Moderator shield icon color - use hexadecimal code or html color name."
 
