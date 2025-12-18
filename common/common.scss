@@ -1,29 +1,29 @@
 /* Posts/topics - moderators only */
 span.moderator:not(.admin) .svg-icon-title svg.d-icon-shield-halved {
-  color: #d5b907;
+  color: #{$moderator_color};
 }
 
 /* Posts/topics - admins */
 span.admin .svg-icon-title svg.d-icon-shield-halved {
-  color: #969696;
+  color: #{$admin_color};
 }
 
 /* User cards - moderators */
 .user-card svg.d-icon-shield-halved[data-role="moderator"] {
-  color: #d5b907;
+  color: #{$moderator_color};
 }
 
 /* User cards - admins */
 .user-card svg.d-icon-shield-halved[data-role="admin"] {
-  color: #969696;
+  color: #{$admin_color};
 }
 
 /* User profiles - moderators */
 .user-profile-names svg.d-icon-shield-halved[data-role="moderator"] {
-  color: #d5b907;
+  color: #{$moderator_color};
 }
 
 /* User profiles - admins */
 .user-profile-names svg.d-icon-shield-halved[data-role="admin"] {
-  color: #969696;
+  color: #{$admin_color};
 }
