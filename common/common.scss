@@ -1,1 +1,29 @@
-// Theme's SCSS
+/* Posts/topics - moderators only */
+span.moderator:not(.admin) .svg-icon-title svg.d-icon-shield-halved {
+  color: #d5b907;
+}
+
+/* Posts/topics - admins */
+span.admin .svg-icon-title svg.d-icon-shield-halved {
+  color: #969696;
+}
+
+/* User cards - moderators */
+.user-card svg.d-icon-shield-halved[data-role="moderator"] {
+  color: #d5b907;
+}
+
+/* User cards - admins */
+.user-card svg.d-icon-shield-halved[data-role="admin"] {
+  color: #969696;
+}
+
+/* User profiles - moderators */
+.user-profile-names svg.d-icon-shield-halved[data-role="moderator"] {
+  color: #d5b907;
+}
+
+/* User profiles - admins */
+.user-profile-names svg.d-icon-shield-halved[data-role="admin"] {
+  color: #969696;
+}
